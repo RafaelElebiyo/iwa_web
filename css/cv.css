@@ -1,0 +1,114 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.content {
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: rgb(13, 109, 169);
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: rgb(13, 109, 169);
+    border-bottom: 2px solid rgb(13, 109, 169);
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* Contenedor principal */
+.cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Datos personales */
+.donnees_personnelles td {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Foto de perfil */
+.photo img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #333;
+    border-radius: 20%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px 0;
+    font-size: 1.1em;
+    border-bottom: 1px solid #ddd;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+/* Enlaces */
+a {
+    color: rgb(13, 109, 169);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+}
+
+.table-donnees-personnelles {
+    margin-bottom: 20px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+}
+
+/* Adaptabilidad para dispositivos móviles */
+@media (max-width: 768px) {
+    .cont {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .photo {
+        margin-top: 15px;
+    }
+
+    .photo img {
+        width: 120px;
+        height: 120px;
+    }
+}

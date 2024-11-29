@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  text-align: justify;
+  margin: 15px;
+}
+
+.image_accueil {
+  margin: 20px;
+  height: 300px;
+  width: 247px;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+#dropdown-menu {
+  position: relative;
+  display: none; 
+}
+
+.dropdown-submenu:hover #dropdown-menu {
+  display: block; 
+  position: absolute;
+    top: auto;
+    left: 100%;
+    margin-top: -50px;
+}
+
+iframe {
+  margin: 15px 0;
+  max-width: 100%;
+}
+
+.carrusel {
+  text-align: center;
+  padding: 15px;
+}
+
+.image_best_pfe {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.best_pfe {
+  margin: 0 auto;
+  padding: 3px;
+}
+
+@media (max-width: 768px) {
+  .best_pfe img {
+    margin-bottom: 10px;
+  }
+}
+
+.navbar {
+  background-color: #0b3494e9;
+}
+
+.navbar .nav-link {
+  color: aliceblue;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #1a5dff;
+}
+
+.navbar .navbar-toggler {
+  border: none;
+  background-color: aliceblue;
+}
+
+.navbar .dropdown-menu {
+  background-color: #0b3494;
+  border: none;
+  border-radius: 0;
+}
+
+.navbar .dropdown-item {
+  color: aliceblue;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #1a5dff;
+  color: #fff;
+}
+
+.navbar .dropdown-menu .dropdown-item .dropdown-menu {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  margin-top: -1px;
+  border-radius: 0;
+  background-color: #0b3494e9;
+}
+
+.navbar .dropdown-menu .dropdown-item:hover .dropdown-menu {
+  display: block;
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: #1a5dff;
+}
+
+@media (max-width: 992px) {
+  .navbar .dropdown-menu {
+    position: static;
+    float: none;
+    width: 100%;
+  }
+
+  .navbar .dropdown-menu .dropdown-menu {
+    position: static;
+    float: none;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+#span_footer{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #0b3494;
+}
+

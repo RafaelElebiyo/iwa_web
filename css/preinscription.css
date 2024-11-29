@@ -1,0 +1,5 @@
+#arab_nom, #arab_prenom {
+    direction: rtl;
+    text-align: right;
+    unicode-bidi: bidi-override;
+  }

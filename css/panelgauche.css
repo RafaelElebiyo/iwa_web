@@ -1,0 +1,35 @@
+p {
+    text-align: justify;
+    margin: 15px;
+  }
+  
+  a {
+    font-weight: bold;
+    color: rgb(20, 20, 140);
+    text-decoration: none;
+  }
+  
+  .class_fle {
+    text-align: center;
+  }
+  
+  .div_section_photos {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .image_section_photos {
+    width: 80%;
+  }
+  
+  .div_image_accueil {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .image_accueil {
+    margin: 20px;
+    height: 300px;
+    width: 247px;
+  }
+
