@@ -84,6 +84,12 @@ body {
 #item{
   list-style: none;
 }
+hr{
+  color:#1a5dff;
+  background-color: #1a5dff;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
 
 .logo_iwa {
   width: 100%;

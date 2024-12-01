@@ -150,10 +150,83 @@
         </div>
     </header>
 
-    <main class="container my-2 mx-3">
+    <main class="container my-4 mx-3">
         <div class="row">
             <div class="col-lg-8 col-md-12 col-12 mb-4">
                 <div class="p-2 bg-light">
+                    <form class="row mt-4 mb-4">
+                        <div class="col-md-6 col-lg-6 col-12 mb-3">
+                            <label for="nom" class="form-label">Nom</label>
+                            <input type="text" class="form-control" id="nom">
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-12 mb-3">
+                            <label for="nom_arab" class="form-label">اسم</label>
+                            <input type="text" class="form-control" id="nom_arab">
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-12 mb-3">
+                            <label for="prenom" class="form-label">Prenom</label>
+                            <input type="text" class="form-control" id="prenom">
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-12 mb-3">
+                            <label for="prenom_arab" class="form-label">الاسم الأول</label>
+                            <input type="text" class="form-control" id="prenom_arab">
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-12 mb-3">
+                            <label for="telephone" class="form-label">Téléphone</label>
+                            <input type="text" class="form-control" id="telephone">
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-12 mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-12 mb-3">
+                            <label for="filiere" class="form-label">Filière</label>
+                            <input type="text" class="form-control" id="filiere">
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-12 mb-3">
+                            <label for="anne_obtention" class="form-label">Année d'obtention</label>
+                            <input type="text" class="form-control" id="anne_obtention">
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-12 mb-3">
+                            <label for="etablissement" class="form-label">Etablissement, ville et pays.</label>
+                            <input type="text" class="form-control" id="etablissement">
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-12 mb-3">
+                            <label ffor="dernier_diplomme" class="form-label">Dernier diplôme obtenu</label>
+                            <select class="form-select mb-3" id="dernier_diplomme">
+                                <option selected>—Veuillez choisir une option—</option>
+                                <option value="licence_publique">Licence (d'un établissement publique)</option>
+                                <option value="master_publique">Master (d'un établissement publique)</option>
+                                <option value="ingenieur_publique">Ingénieur (d'un établissement publique)</option>
+                                <option value="bac+3_prive">Bac+3 (d'un établissement privé)</option>
+                                <option value="bac+4_prive">Bac+4 (d'un établissement privé)</option>
+                                <option value="bac+5_prive">Bac+5 (d'un établissement privé)</option>
+                            </select>
+                        </div>
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="cv">CV (pdf file < 5 MB)</label>
+                                    <input type="file" class="form-control" id="cv">
+                        </div>
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="releves_notes_1">Relevés des notes de la dernière année
+                                d'études (Relevé 1 < 5 MB)</label>
+                                    <input type="file" class="form-control" id="releves_notes_1">
+                        </div>
+                        <div class="input-group mb-4">
+                            <label class="input-group-text" for="releves_notes_2">Relevés des notes de l'avant dernière
+                                année d'études (Relevé 2 < 5 MB)</label>
+                                    <input type="file" class="form-control" id="releves_notes_2">
+                        </div>
+
+                        <div class="text-center col-12 col-lg-12 col-md-12 mb-4">
+                            <button type="submit" id="envoiyer" class="btn btn-primary">Envoiyer</button>
+                        </div>
+                    </form>
+
+                    <p><strong>NB:La formation IWA est payante.</strong><br>
+                        Frais de formation: 40 000 DH pour les 2 années. Payable en 2 tranches.<br>
+                        Date limite de pré-inscription: 05 Novembre 2024.
+                    </p>
                 </div>
             </div>
 
