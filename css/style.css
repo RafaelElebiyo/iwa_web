@@ -1,6 +1,7 @@
-body {
+#body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(28, 32, 43);
 }
 
 label {
@@ -15,6 +16,14 @@ label {
 p {
   text-align: justify;
   margin: 15px;
+}
+
+#h2{
+  font-weight: bold;
+  color: #0b3494;
+  text-decoration: none;
+  margin: 15px;
+  ; 
 }
 
 #a {
