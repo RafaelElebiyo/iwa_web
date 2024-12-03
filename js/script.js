@@ -1,16 +1,16 @@
-const scrollUpButton = document.getElementById('scroll-up');
 
-// Mostrar botón al desplazarse hacia abajo
-window.onscroll = function() {
-    if (window.scrollY > 200) { // Ajusta la cantidad de desplazamiento según prefieras
-        scrollUpButton.style.display = "block";
+window.onscroll = function () {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        document.getElementById('btnTop').style.display = "block";
     } else {
-        scrollUpButton.style.display = "none";
+        document.getElementById('btnTop').style.display = "none";
     }
 };
 
-// Hacer scroll al principio de la página
-scrollUpButton.onclick = function(event) {
-    event.preventDefault();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-};
+document.getElementById('btnTop').addEventListener('click', function () {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+
